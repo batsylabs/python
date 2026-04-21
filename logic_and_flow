@@ -1,0 +1,68 @@
+## Logic & Flow
+
+# Mathematical operations
+
+# if / elif / else
+
+```
+if condition:
+	do this
+else:
+do this
+```
+
+```
+print("Welcome to the rollercoaster!")
+
+height = int(input("What is your height in cm?"))
+
+if height >= 120:
+
+    print("You can ride the rollercoaster!")
+
+else:
+
+    print("Sorry, you have to grow taller before you can ride.")
+```
+
+```
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm?"))
+
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("What is you age? "))
+    if age <= 12:
+        print("Please pay $5")
+    elif age <= 18:
+        print("Please pay $7")
+    else:
+        print("Please pay $12")
+else:
+    print("Sorry you have to grow taller before you can ride.")
+```
+
+**Multiple if**
+
+```
+if condition1:
+	do A
+if condition2:
+	do B
+if condition3:
+	do C
+# Logical operators
+```
+
+Modular Operator
+%
+
+**10 % 5**
+10 / 5 = 2
+
+**10 % 3**
+10 / 3 = 3. with 1 remain
+
+# Randomization
+
+# Error basics
